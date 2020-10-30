@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<title>Character sheets</title>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="#ex">Rules</a></li>
+            <li><a href="#player1">Player 1</a></li>
+            <li><a href="#player2">Player 2</a></li>
+            <li><a href="#player3">Player 3</a></li>
+            <li><a id="addplayer" href="#player4">Add Player</a></li>
+            <li>
+                <a href="#about"></a>
+            </li>
+        </ul>
+    </div>
+    <div id="ex">
+        <h1>Basic Rules</h1>
+        <hr>
+        <p>Possible actions you may take in combat:<br> Attack, cast a spell, double move, investigate, ready an attack, pass.<br><br> DR: Defense rating. Your race’s base defense plus any special abilities and your agility and constitution modifiers<br><br> SP: Spell power. Your class’ base spell power plus your intelligence modifier. Determines what enemies have to roll to defend <br>against certain spells.<br><br> CW: Carry weight. Your class’ carry weight multiplier times your strength stat.<br><br> SS: Spell slots. How many spells you can cast aside from cantrops.<br><br> Modifiers are -2 at 0 and increase by +1 for every two levels in them.<br>
+        </p>
+        <hr>
+    </div>
+    <div id="player1">
+        <h1> Player 1</h1>
+
+        <table>
+            <tr>
+                <td>Name:<input class="editmode" id="name1" type="text" value=" Josh"></td>
+                <td>Race:<input class="editmode" id="Race1" type="text" value=" Human"></td>
+                <td>Class:<input class="editmode" id="Class1" type="text" value=" God"></td>
+                <td>Subclass:<input class="editmode" id="SubClass1" type="text" value=" God"></td>
+                <td>HP:<input class="editModeNum" id="HP1" type="number" value="100">/<input class="editModeNum" id="HP1" type="number" value="10"></td>
+            </tr>
+            <td>Abilities:<br><textarea id = "Abil1" class="AMS"></textarea></td>
+            <td>Stats:<br> Prec: <input class="editModeNum" id="Prec1" type="number" value="10"><br> Stre: <input class="editModeNum" id="Stre1" type="number" value="10"><br> Dext: <input class="editModeNum" id="Dext1" type="number" value="10"><br> Agil: <input class="editModeNum" id="Agil1" type="number" value="10"><br> Cons: <input class="editModeNum" id="Cons1" type="number" value="10"><br> Inte: <input class="editModeNum" id="Inte1" type="number" value="10"><br> Wis: <input class="editModeNum" id="Wis1" type="number" value="10"><br> Pers: <input class="editModeNum" id="Pers1" type="number" value="10"><br> Inti: <input class="editModeNum" id="Inti1" type="number" value="10"><br> Pois: <input class="editModeNum" id="Pois1" type="number" value="10"><br> Fait: <input class="editModeNum" id="Fait1" type="number" value="10"><br>
+            </td>
+            <td>Modifers:<br> <textarea id ="Mod1" class="AMS"></textarea></td>
+            <td>Special Skills:<br><textarea id = "SP1" class="AMS"></textarea></td>
+            <td></td>
+            <tr>
+                <td>Alignment: <input class="editmode" id="Alignment1" type="text" value=" Something"> </td>
+                <td>SP: <input class="editModeNum" id="SpellP1" type="number" value="10"></td>
+                <td>DR: <input class="editModeNum" id="DR1" type="number" value="10"></td>
+                <td>CW: <input class="editModeNum" id="CW1" type="number" value="10">/<input class="editModeNum" id="IBS1" type="number" value="10"> Ibs </td>
+                <td>SS:<input class="editModeNum" id="SS1" type="number" value="10">/<input class="editModeNum" id="SS1b" type="number" value="10"></td>
+
+
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="wsa">Weapons:<br><textarea class="wsaTB" id ="Weapons1"></textarea></td>
+                <td class="wsa">Spells:<br><textarea class="wsaTB" id ="Spells1"></textarea></td>
+                <td class="wsa">Armours:<br><textarea class="wsaTB" id ="Armours1"></textarea></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id="inv1">Inventory:<br> <textarea id="InInv1">Some text...</textarea></td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="player2">
+        <h1>Player 2</h1>
+        <table>
+            <tr>
+                <td>Name:<input class="editmode" id="name2" type="text" value=" Josh"></td>
+                <td>Race:<input class="editmode" id="Race2" type="text" value=" Human"></td>
+                <td>Class:<input class="editmode" id="Class2" type="text" value=" God"></td>
+                <td>Subclass:<input class="editmode" id="SubClass2" type="text" value=" God"></td>
+                <td>HP:<input class="editModeNum" id="HP2" type="number" value="20">/<input class="editModeNum" id="HP2" type="number" value="20"></td>
+            </tr>
+            <td>Abilities:<textarea class="AMS" id = "Abil2"></textarea></td>
+            <td>Stats:<br> Prec: <input class="editModeNum" id="Prec2" type="number" value="20"><br> Stre: <input class="editModeNum" id="Stre2" type="number" value="20"><br> Dext: <input class="editModeNum" id="Dext2" type="number" value="20"><br> Agil: <input class="editModeNum" id="Agil2" type="number" value="20"><br> Cons: <input class="editModeNum" id="Cons2" type="number" value="20"><br> Inte: <input class="editModeNum" id="Inte2" type="number" value="20"><br> Wis: <input class="editModeNum" id="Wis2" type="number" value="20"><br> Pers: <input class="editModeNum" id="Pers2" type="number" value="20"><br> Inti: <input class="editModeNum" id="Inti2" type="number" value="20"><br> Pois: <input class="editModeNum" id="Pois2" type="number" value="20"><br> Fait: <input class="editModeNum" id="Fait2" type="number" value="20"><br>
+            </td>
+            <td>Modifers: <br> <textarea id ="Mod2" class="AMS"></textarea></td>
+            <td>Special Skills: <br> <textarea id = "SP2" class="AMS"></textarea></td>
+            <td></td>
+            <tr>
+                <td>Alignment: <input class="editmode" id="Alignment2" type="text" value=" Something"> </td>
+               <td>SP: <input class="editModeNum" id="SpellP2" type="number" value="10"></td>
+                <td>DR: <input class="editModeNum" id="DR2" type="number" value="20"></td>
+                <td>CW: <input class="editModeNum" id="CW2" type="number" value="20">/ Ibs <input class="editModeNum" id="IBS2" type="number" value="20"></td>
+                <td>SS:<input class="editModeNum" id="SS2" type="number" value="20">/<input class="editModeNum" id="SS2b" type="number" value="20"></td>
+
+
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="wsa">Weapons:<br><textarea class="wsaTB" id ="Weapons2"></textarea></td>
+                <td class="wsa">Spells:<br><textarea class="wsaTB" id ="Spells2"></textarea></td>
+                <td class="wsa">Armours:<br><textarea class="wsaTB" id =Armours2></textarea></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id="inv1">Inventory:<br> <textarea id="InInv2">Some text...</textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div id="player3">
+        <h1>Player 3</h1>
+        <table>
+            <tr>
+                <td>Name:<input class="editmode" id="name3" type="text" value=" Josh"></td>
+                <td>Race:<input class="editmode" id="Race3" type="text" value=" Human"></td>
+                <td>Class:<input class="editmode" id="Class3" type="text" value=" God"></td>
+                <td>Subclass:<input class="editmode" id="SubClass3" type="text" value=" God"></td>
+                <td>HP:<input class="editModeNum" id="HP3" type="number" value="30">/<input class="editModeNum" id="HP3" type="number" value="30"></td>
+            </tr>
+            <td>Abilities: <br> <textarea class="AMS" id = "Abil3"></textarea></td>
+            <td>Stats:<br> Prec: <input class="editModeNum" id="Prec3" type="number" value="30"><br> Stre: <input class="editModeNum" id="Stre3" type="number" value="30"><br> Dext: <input class="editModeNum" id="Dext3" type="number" value="30"><br> Agil: <input class="editModeNum" id="Agil3" type="number" value="30"><br> Cons:<input class="editModeNum" id="Cons3" type="number" value="30"><br> Inte: <input class="editModeNum" id="Inte3" type="number" value="30"><br> Wis: <input class="editModeNum" id="Wis3" type="number" value="30"><br> Pers: <input class="editModeNum" id="Pers3" type="number" value="30"><br> Inti: <input class="editModeNum" id="Inti3" type="number" value="30"><br> Pois: <input class="editModeNum" id="Pois3" type="number" value="30"><br> Fait: <input class="editModeNum" id="Fait3" type="number" value="30"><br>
+            </td>
+            <td>Modifers: <br> <textarea  id ="Mod3" class="AMS"></textarea></td>
+            <td>Special Skills: <br> <textarea class="AMS" id = "SP3"></textarea></td>
+            <td></td>
+            <tr>
+                <td>Alignment: <input class="editmode" id="Alignment3" type="text" value=" Something"> </td>
+                <td>SP:  <input class="editModeNum" id="SpellP3" type="number" value="10"></td>
+                <td>DR: <input class="editModeNum" id="DR3" type="number" value="30"></td>
+                <td>CW: <input class="editModeNum" id="CW3" type="number" value="30">/ Ibs <input class="editModeNum" id="Ibs3" type="number" value="30"></td>
+                <td>SS:<input class="editModeNum" id="SS3" type="number" value="30">/<input class="editModeNum" id="SS3" type="number" value="30"></td>
+
+
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="wsa">Weapons:<br><textarea class="wsaTB" id ="Weapons3"></textarea></td>
+                <td class="wsa" >Spells:<br><textarea class="wsaTB" id ="Spells3" ></textarea></td>
+                <td class="wsa">Armours:<br><textarea class="wsaTB" id ="Armours3"></textarea></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id="inv3">Inventory:<br> <textarea id="InInv3">Some text...</textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div id="player4">
+        <h1>Player 4</h1>
+        <table>
+            <tr>
+                <td>Name:<input class="editmode" id="name4" type="text" value=" Josh"></td>
+                <td>Race:<input class="editmode" id="Race4" type="text" value=" Human"></td>
+                <td>Class:<input class="editmode" id="Class4" type="text" value=" God"></td>
+                <td>Subclass:<input class="editmode" id="SubClass4" type="text" value=" God"></td>
+                <td>HP:<input class="editModeNum" id="HP4" type="number" value="40">/<input class="editModeNum" id="HP4" type="number" value="40"></td>
+            </tr>
+            <td>Abilities: <br> <textarea class="AMS"></textarea></td>
+            <td>Stats:<br> Prec: <input class="editModeNum" id="Prec4" type="number" value="40"><br> Stre: <input class="editModeNum" id="Stre4" type="number" value="40"><br> Dext: <input class="editModeNum" id="Dext4" type="number" value="40"><br> Agil: <input class="editModeNum" id="Agil4" type="number" value="40"><br> Cons: <input class="editModeNum" id="Cons4" type="number" value="40"><br> Inte: <input class="editModeNum" id="Inte4" type="number" value="40"><br> Wis: <input class="editModeNum" id="Wis4" type="number" value="40"><br> Pers: <input class="editModeNum" id="Pers4" type="number" value="40"><br> Inti: <input class="editModeNum" id="Inti4" type="number" value="40"><br> Pois: <input class="editModeNum" id="Pois4" type="number" value="40"><br> Fait: <input class="editModeNum" id="Fait4" type="number" value="40"><br>
+            </td>
+            <td>Modifers: <br> <textarea class="AMS"></textarea></td>
+            <td>Special Skills: <br> <textarea class="AMS"></textarea></td>
+            <td></td>
+            <tr>
+                <td>Alignment: <input class="editmode" id="Alignment4" type="text" value=" Something"> </td>
+                <td>SP: </td>
+                <td>DR: <input class="editModeNum" id="DR4" type="number" value="40"></td>
+                <td>CW: <input class="editModeNum" id="CW4" type="number" value="40">/ Ibs <input class="editModeNum" id="Ibs4" type="number" value="40"></td>
+                <td>SS:<input class="editModeNum" id="SS4" type="number" value="40">/<input class="editModeNum" id="SS4" type="number" value="40"></td>
+
+
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="wsa">Weapons:<br><textarea class="wsaTB"></textarea></td>
+                <td class="wsa">Spells:<br><textarea class="wsaTB"></textarea></td>
+                <td class="wsa">Armours:<br><textarea class="wsaTB"></textarea></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td id="inv4">Inventory:<br> <textarea id="inInv4">Some text...</textarea></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

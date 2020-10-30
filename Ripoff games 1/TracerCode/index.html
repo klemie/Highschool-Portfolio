@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <meta charset="UTF-8">
+    <title>Tracer Code</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="../script.js"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            margin-top: 100px;
+            position: absolute;
+            margin-left: -400px;
+            left: 50%;
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../games.html">Games</a>
+        <a href="../index.html">Games</a>
+        <a href="../lootBoxSimulator/index.html">Loot box</a>
+        <a href="../login.html">log-in</a>
+
+    </div>
+    <div id="main">
+
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+
+            <li><a href="lootBoxSimulator/index.html">Loot Box</a></li>
+            <li id="lo" style="float:right"><a href="login.html">Log-In</a></li>
+            <li id="pro" style="float:right"><a href="profile.html">Profile</a></li>
+            <div id="menucon" onclick="openNav()">
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+                <div class="menuIcon"></div>
+            </div>
+        </ul>
+        <div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+.editmode{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    width: 55px;
+}
+body{
+    margin: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+input{
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+}
+ul {
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#navbar{
+height: 100px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.editModeNum{
+    width: 35px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+td{
+    vertical-align: top;
+    width: 150px;
+}
+table{
+    margin: auto;
+    margin-top: 30px;
+}
+h1{
+    font-weight: normal;
+    text-align: center
+}
+#inv1{
+    width: 800px;
+    
+}
+textarea{
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+   resize: none;
+}
+#InInv1{
+  width: 800px;
+  height: 120px;
+  resize: none;
+}
+#InInv2{
+  width: 800px;
+  height: 120px;
+  resize: none;
+}
+#InInv3{
+  width: 800px;
+  height: 120px;
+  resize: none;
+}
+#inInv4{
+  width: 800px;
+  height: 120px;
+  resize: none;
+}
+.wsa{
+    width: 266.px;
+}
+.wsaTB{
+    height: 100px;
+    width: 250px;
+}
+.AMS{
+    height: 350px;
+}
+#player4{
+
+}
+#ex{
+    margin: auto;
+    width : 800px;
+}
+hr{
+    border:  0.5px solid #ddd;
+}
+#player1{
+    margin-top: 200px;
+}
+textarea{
+    border: 0.5px solid #ddd;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Match</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <style>
+        body {
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        
+        canvas {
+            border: solid 2px white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="hoverlay">
+        <img id="playbt" src="images/play-btn.png" width="200">
+        <div class="options" id="modes">Modes</div>
+        <div class="options" id="con">Controls</div>
+        <div class="options" id="set">Settings</div>
+
+    </div>
+    <div id="mode">
+        <img class="backbt" src="images/backbtn.png" width="40">
+        <div id="gmt">
+            <h1>GAME MODES</h1>
+        </div>
+        <div id="endless" class="GameMode">Endless</div>
+
+        <div class="GameMode">COMING SOON...</div>
+
+        <div class="GameMode">COMING SOON...</div>
+
+        <div class="GameMode">COMING SOON...</div>
+
+        <div class="GameMode">COMING SOON...</div>
+
+        <div class="GameMode">COMING SOON...</div>
+
+
+    </div>
+
+    <div id="controls">
+        <img class="backbt" src="images/backbtn.png" width="40">
+        <div id="gmt"><h1>Controls</h1></div>
+        <div id="lvl1"><img src="images/arrowkeysfade.png" width="200px"><h3>Click the left and right arrow to move</h3><button id="next">Next</button></div>
+        <div id="lvl2"><img src="images/spacebar.png" width="300px">
+            <h3>click the Spacebar to...</h3>
+        </div>
+    </div>
+    
+    <div id="cnvContainer">
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="grid.js"></script>
+    <script src="player.js"></script>
+    <script src="script.js"></script>
+    <script src="helper.js"></script>
+</body>
+
+</html>

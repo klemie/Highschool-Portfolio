@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sketch</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <script src="p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="helpers.js"></script>
+    <script src="map1sketch.js"></script>
+    <script src="movingrectangles.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <style>
+        canvas {
+            font-family: 'Titillium Web', sans-serif;
+            box-shadow: 2px 2px 4px 4px lightgray;
+            border: solid 4px gray;
+            border-radius: 10px;
+        }
+        
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        
+        #contain {
+            left: 50%;
+            margin-left: -400px;
+            text-align: center;
+            position: absolute;
+            margin-top: 620px;
+            width: 800px;
+        }
+        
+        .explain {
+            background-color: white;
+            width: 29%;
+            height: 200px;
+            float: left;
+        }
+        
+        .explain {
+            box-shadow: 2px 2px 2px 2px lightgray;
+        }
+        
+        .explain p {
+            margin-left: 35px;
+            text-align: left;
+        }
+        
+        .explain #p1:hover {
+            color: blue;
+        }
+        
+        .explain #p2:hover {
+            color: red;
+        }
+        
+        #mleft {
+            margin-left: 51px;
+        }
+        
+        #twotwo {
+            display: none;
+        }
+        
+        #title {
+            width: 100%;
+            height: 30px;
+            background-color: white;
+            box-shadow: 2px 2px 2px 2px lightgray;
+            margin-top: 220px;
+        }
+        
+        #FullCon {
+            left width: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--<div id="FullCon"><img src="images/fullscreen_grey_192x192.png" style="width: 40px;"></div>-->
+    <div id="contain">
+        <div class="explain">
+            <h3 id="p1">PLAYER 1 CONTROLS</h3>
+            <p>-Arrow keys movement.<br> Left and right to change facing direction.<br>-Left mouse Button to<br> shot.</p>
+        </div>
+
+        <div id="mleft" class="explain" style="border: solid 1px yellow">
+            <h3>TIP</h3>
+            <p>Wait for the bullets to hit before shoting again for<br> the damage to register.</p>
+
+        </div>
+
+        <div id="mleft" class="explain">
+            <h3 id="p2">PLAYER 2 CONTROLS</h3>
+            <p>-WASD movement. A and<br> D to change facing<br> direction.<br>-Space Bar to shot.</p>
+        </div>
+        <div id="title">
+            <h3>Paint Ball - Made by: Kristopher Lemieux and lathicca</h3>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

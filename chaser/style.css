@@ -1,0 +1,115 @@
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+#text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#pause {
+    z-index: 2;
+    display: none;
+    margin-left: 225px;
+    position: fixed;
+    height: 600px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#controls {
+    margin-top: 200px;
+    position: relative;
+    
+}
+.pauseMenu{
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.pausebt {
+    position: relative;
+    float: left;
+    margin-left: 2px;
+    background-color: black;
+    border: solid black 1px;
+    width: 2px;
+    height: 15px;
+    z-index: 3;
+}
+#pausebtcon{
+    display: none;
+    position: relative;
+    left: 1010px;
+    top: 28px;
+    width: 15px;
+    height: 18px;
+    cursor: pointer;
+}
+#LevelCon{
+    width: 600px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.MMcon{
+    
+    width: 800px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 225px;
+    position: absolute;
+}
+.levelsCon{
+    display: none;
+    width: 800px;
+    height: 600px;
+    
+    margin-left: 225px;
+    position: absolute;
+}
+.level{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    border: solid 1px black;
+    cursor: pointer;
+}
+h2{
+    color: white;
+    margin: 10px;
+}
+.change .bar1{
+   -webkit-transform: rotate(-45deg); 
+}
+.change .bar2{
+    -webkit-transform: rotate(45deg); 
+
+}
+#playbt{
+    margin-top: 170px;
+}
